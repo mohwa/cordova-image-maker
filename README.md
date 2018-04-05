@@ -32,7 +32,7 @@ Example:
 ```
 const CordovaImageMaker = require('cordova-image-maker');
 
-new (require('../index.js'))({config: config, icon: icon, splash: splash, quiet: quiet}).resize();
+new CordovaImageMaker({config, icon, splash}).resize();
 ```
 
 ## Options
