@@ -1,0 +1,35 @@
+{
+  "name": "cordova-image-maker",
+  "version": "0.0.1",
+  "description": "cordova-image-maker",
+  "keywords": [
+    "cordova",
+    "icon",
+    "splash",
+    "image",
+    "maker",
+    "generate"
+  ],
+  "homepage": "https://github.com/mohwa/cordova-image-maker",
+  "author": {
+    "name": "mohwa",
+    "email": "yanione2@gmail.com"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.14.1",
+    "argparse": "^1.0.10",
+    "chalk": "^2.3.2",
+    "fs-extra": "^5.0.0",
+    "ora": "^2.0.0",
+    "xml2js": "^0.4.19",
+    "jimp": "^0.2.28"
+  },
+  "bin": {
+    "cordova-image-maker": "./bin/cli.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.x"
+  }
+}
